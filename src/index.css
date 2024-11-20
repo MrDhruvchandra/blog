@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-gray-50 text-gray-900;
+  }
+}
+
+.prose img {
+  @apply rounded-lg shadow-md;
+}
+
+.ql-editor {
+  @apply min-h-[300px];
+}
+
+.ql-container {
+  @apply font-sans text-base;
+}
+
+.ql-toolbar {
+  @apply border-gray-300 rounded-t-lg bg-white;
+}
+
+.ql-container {
+  @apply border-gray-300 rounded-b-lg bg-white;
+}
